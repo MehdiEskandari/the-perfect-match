@@ -15,7 +15,8 @@ npm install react-router-dom framer-motion react-intersection-observer styled-co
 
 src > make a folder (components > AboutSection.js)
 
-Put basic jsx things into the AboutSection.js
+## Put basic jsx things into the AboutSection.js
+
 import React from 'react';
 
     const AboutSection = () => {
@@ -35,3 +36,10 @@ then insert them into the whole AboutUs page.
 Eventually, we insert pages into the App.js
 
 whats meaning of chuks?
+
+
+----
+
+src > make a file (components > ServicesSection.js)
+We make a few components in components folder
+then insert them into the whole AboutUs page. 
