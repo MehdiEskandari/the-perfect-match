@@ -9,9 +9,8 @@ Delete: index.css, App.css, App.test.js, logo, setupTests.js
 ------------------
 
 npm install react-router-dom framer-motion react-intersection-observer styled-components
-
+    import home1 from '../img/home1.png'
 ------------------
-
 src > make a folder (components > AboutSection.js)
 
 Put basic jsx things into the AboutSection.js
@@ -27,8 +26,9 @@ Put basic jsx things into the AboutSection.js
 
 Before use any images you must import it.
 
-src > make a folder (pages > AboutUs.js)
-we make a few components in components folder 
+
+src > make a folder (pages > AboutUs.js).
+We make a few components in components folder 
 then insert them into the whole AboutUs page.
 
 Eventually, we insert pages into the App.js
