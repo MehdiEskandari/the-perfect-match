@@ -1,0 +1,13 @@
+get project from git:
+    git clone <url>
+
+install required packages:
+    npm install
+
+to see commits of that project:
+    git log
+
+switch around commits:
+    
+
+
