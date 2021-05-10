@@ -42,4 +42,23 @@ whats meaning of chuks?
 
 src > make a file (components > ServicesSection.js)
 We make a few components in components folder
-then insert them into the whole AboutUs page. 
+then insert them into the whole AboutUs page.
+
+
+---
+styled components
+put the style next to the export line
+like this:
+container = <use-styled-component>.<element>` write your css here`
+const About = styled.div`
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  color: white;
+`;
+
+but maybe we need to add global css
+src > make a new file (components > GlobalStyle.js)
+and inside of that you need to import someting
