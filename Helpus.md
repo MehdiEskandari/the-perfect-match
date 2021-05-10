@@ -62,3 +62,29 @@ const About = styled.div`
 but maybe we need to add global css
 src > make a new file (components > GlobalStyle.js)
 and inside of that you need to import someting
+
+after write some line of css code in AboutSection (Styled Comopnents)
+
+we make a new file in src folder and make a new file styles.js
+then moved reusable Styled Comopnents into the this file and don't forget import styled from 'styled-components'
+
+Then export each of them 
+for example:
+  export const Hide = styled.div`
+    overflow: hidden;
+  `;
+
+Then you can simply import them like this:
+import { About, Description, Hide, Image } from '../styles';
+
+for styling Services we can copy all css in About or we can 
+write this :
+
+const Services = styled(About)`
+  ...css here
+`;
+
+both of them do the same things
+
+After styling we need to add font
+google fonts > inter & lobster > embeded > peast into the index.html
